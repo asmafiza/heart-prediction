@@ -1,6 +1,7 @@
 import streamlit as st
 import time
-from src.predictor import HeartDiseasePredictor
+# Change it to a direct import:
+from predictor import HeartDiseasePredictor
 
 # -- Page Configuration --
 st.set_page_config(
